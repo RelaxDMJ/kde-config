@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Gestion des activités
+switch-to-activity-3d2dd477-2d30-44cc-8c29-8d23bdf3367c=none,none,Passer à l'activité « Défaut »
 switch-to-activity-78b09966-59e0-4506-ad9a-140cae783f24=none,none,Passer à l'activité « Default »
 
 [KDE Keyboard Layout Switcher]
@@ -11,12 +12,6 @@ _k_friendly_name=Commutateur de dispositions de clavier
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
 _k_friendly_name=Accessibilité
-
-[kcm_touchpad]
-Disable Touchpad=Touchpad Off,Touchpad Off,Désactiver le pavé tactile
-Enable Touchpad=Touchpad On,Touchpad On,Activer le pavé tactile
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Basculer le pavé tactile
-_k_friendly_name=Pavé tactile
 
 [kmix]
 _k_friendly_name=Volume audio
@@ -45,12 +40,12 @@ Activate Window Demanding Attention=none,Meta+Ctrl+A,Activer une fenêtre récla
 Cycle Overview=none,none,Faire défiler les vues en aperçu et en grille
 Cycle Overview Opposite=none,none,Faire défiler les vues en aperçu et en grille
 Decrease Opacity=none,,Diminuer l'opacité de la fenêtre active de 5 %
-Edit Tiles=none,Meta+T,Basculer vers l'éditeur de tuiles
+Edit Tiles=Meta+T,Meta+T,Basculer vers l'éditeur de tuiles
 Expose=Ctrl+F9,Ctrl+F9,Basculer les fenêtres présentes (Bureau courant)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Naviguer entre les fenêtres présentes (Tous les bureaux)
 ExposeClass=Ctrl+F7,Ctrl+F7,Basculer les fenêtres présentes (Classe de fenêtres)
 ExposeClassCurrentDesktop=none,none,Basculer les fenêtres courantes (Classe de fenêtres sur le bureau actuel)
-Grid View=none,Meta+G,Basculer vers l'affichage en grille
+Grid View=Meta+G,Meta+G,Basculer vers l'affichage en grille
 Increase Opacity=none,,Augmenter l'opacité de la fenêtre active de 5 %
 Kill Window=none,Meta+Ctrl+Esc,Détruire une fenêtre
 Move Tablet to Next Output=none,none,Déplacer la tablette vers la prochaine sortie
@@ -110,14 +105,14 @@ Switch to Screen to the Left=none,,Basculer vers l'écran sur la gauche
 Switch to Screen to the Right=none,,Basculer vers l'écran sur la droite
 Toggle Night Color=none,none,Suspendre /Poursuivre l'utilisation de la couleur de nuit
 Toggle Window Raise/Lower=none,,Passer une fenêtre au-dessus / en dessous
-Walk Through Windows=Meta+Tab,Alt+Tab,Naviguer parmi les fenêtres
-Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Tab,Naviguer parmi les fenêtres (en ordre inverse)
-Walk Through Windows Alternative=none,,Naviguer parmi les alternatives de fenêtres
-Walk Through Windows Alternative (Reverse)=none,,Naviguer parmi les alternatives de fenêtres (en ordre inverse)
-Walk Through Windows of Current Application=Alt+`,Alt+`,Naviguer parmi les fenêtres de l'application courante
-Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Naviguer parmi les fenêtres de l'application courante (en ordre inverse)
-Walk Through Windows of Current Application Alternative=none,,Naviguer parmi les fenêtres de l'application alternative courante
-Walk Through Windows of Current Application Alternative (Reverse)=none,,Naviguer parmi les fenêtres de l'application alternative courante (en ordre inverse)
+Walk Through Windows=Meta+Tab,Meta+Tab\tAlt+Tab,Naviguer parmi les fenêtres
+Walk Through Windows (Reverse)=Alt+Shift+Tab,Meta+Shift+Tab\tAlt+Shift+Tab,Naviguer parmi les fenêtres (en ordre inverse)
+Walk Through Windows Alternative=none,none,Naviguer parmi les alternatives de fenêtres
+Walk Through Windows Alternative (Reverse)=none,none,Naviguer parmi les alternatives de fenêtres (en ordre inverse)
+Walk Through Windows of Current Application=Alt+`,Meta+`\tAlt+`,Naviguer parmi les fenêtres de l'application courante
+Walk Through Windows of Current Application (Reverse)=Alt+~,Meta+~\tAlt+~,Naviguer parmi les fenêtres de l'application courante (en ordre inverse)
+Walk Through Windows of Current Application Alternative=none,none,Naviguer parmi les fenêtres de l'application alternative courante
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,Naviguer parmi les fenêtres de l'application alternative courante (en ordre inverse)
 Window Above Other Windows=none,,Conserver une fenêtre au-dessus des autres
 Window Below Other Windows=none,,Conserver une fenêtre au-dessous des autres
 Window Close=Meta+Q,Alt+F4,Fermer une fenêtre
@@ -131,10 +126,10 @@ Window Grow Vertical=none,,Maximiser verticalement une fenêtre
 Window Lower=none,,Enrouler une fenêtre
 Window Maximize=Meta+Up,Meta+PgUp,Maximiser une fenêtre
 Window Maximize Horizontal=none,,Maximiser horizontalement une fenêtre
-Window Maximize Vertical=none,,Maximiser verticalement une fenêtre
+Window Maximize Vertical=Meta+Alt+V,,Maximiser verticalement une fenêtre
 Window Minimize=none,Meta+PgDown,Réduire une fenêtre
 Window Move=none,,Déplacer une fenêtre
-Window Move Center=none,,Déplacer la fenêtre au centre
+Window Move Center=Meta+Down,,Déplacer la fenêtre au centre
 Window No Border=none,,Afficher / Masquer la barre de titre et la bordure
 Window On All Desktops=none,,Conserver une fenêtre sur tous les bureaux
 Window One Desktop Down=none,Meta+Ctrl+Shift+Down,Envoyer une fenêtre sur le bureau en dessous
@@ -147,14 +142,14 @@ Window One Screen to the Left=none,,Déplacer une fenêtre d'un écran vers la g
 Window One Screen to the Right=none,,Déplacer une fenêtre d'un écran vers la droite
 Window Operations Menu=none,Alt+F3,Menu des opérations de fenêtres
 Window Pack Down=none,,Déplacer une fenêtre vers le bas
-Window Pack Left=Meta+Left,,Déplacer une fenêtre vers la gauche
-Window Pack Right=Meta+Right,,Déplacer une fenêtre vers la droite
+Window Pack Left=none,,Déplacer une fenêtre vers la gauche
+Window Pack Right=none,,Déplacer une fenêtre vers la droite
 Window Pack Up=none,,Déplacer une fenêtre vers le haut
 Window Quick Tile Bottom=none,Meta+Down,Mettre rapidement en mosaïque une fenêtre en bas
 Window Quick Tile Bottom Left=none,,Mettre rapidement en mosaïque une fenêtre en bas et à gauche
 Window Quick Tile Bottom Right=none,,Mettre rapidement en mosaïque une fenêtre en bas et à droite
-Window Quick Tile Left=none,Meta+Left,Mettre rapidement en mosaïque une fenêtre à gauche
-Window Quick Tile Right=none,Meta+Right,Mettre rapidement en mosaïque une fenêtre à droite
+Window Quick Tile Left=Meta+Left,Meta+Left,Mettre rapidement en mosaïque une fenêtre à gauche
+Window Quick Tile Right=Meta+Right,Meta+Right,Mettre rapidement en mosaïque une fenêtre à droite
 Window Quick Tile Top=none,Meta+Up,Mettre rapidement en mosaïque une fenêtre en haut
 Window Quick Tile Top Left=none,,Mettre rapidement en mosaïque une fenêtre en haut et à gauche
 Window Quick Tile Top Right=none,,Mettre rapidement en mosaïque une fenêtre en haut et à droite
@@ -197,9 +192,9 @@ Window to Screen 6=none,,Déplacer une fenêtre sur l'écran 6
 Window to Screen 7=none,,Déplacer une fenêtre sur l'écran 7
 _k_friendly_name=KWin
 disableInputCapture=Meta+Shift+Esc,Meta+Shift+Esc,Désactiver la capture active des entrées
-view_actual_size=none,Meta+0,Zoomer jusqu'à la taille actuelle
-view_zoom_in=none,Meta++\tMeta+=,Zoom avant
-view_zoom_out=none,Meta+-,Zoom arrière
+view_actual_size=none,Meta+0,Zoomer jusqu'à la taille réelle
+view_zoom_in=none,Meta++\tMeta+=,Agrandir
+view_zoom_out=none,Meta+-,Zoomer en arrière
 
 [mediacontrol]
 _k_friendly_name=Contrôleur de média
@@ -249,6 +244,7 @@ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu contextuel automatique d'action :
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Déplacer le focus de clavier entre les panneaux
 cycleNextAction=none,,Élément suivant de l'historique
 cyclePrevAction=none,,Élément précédent de l'historique
+edit_clipboard=none,,Modifier les contenus...
 manage activities=none,Meta+Q,Afficher le sélecteur d'activités
 next activity=none,none,Parcourir les activités
 previous activity=Meta+Shift+A,none,Parcourir les activités (à l'envers)
@@ -265,6 +261,9 @@ toggle do not disturb=none,,Basculer « Ne pas déranger »
 New=Meta+Return
 _launch=Alt+Return
 
+[services][cachyos-hello.desktop]
+_launch=Meta+C
+
 [services][firefox.desktop]
 _launch=Alt+B
 new-window=Meta+B
@@ -274,6 +273,9 @@ _launch=Meta+Space
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
+
+[services][org.kde.touchpadshortcuts.desktop]
+ToggleTouchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku
 
 [services][systemsettings.desktop]
 _launch=Tools\tMeta+Shift+Return

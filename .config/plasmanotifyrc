@@ -3,3 +3,6 @@ Seen=true
 
 [Applications][floorp]
 Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true

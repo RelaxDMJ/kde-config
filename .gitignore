@@ -1,0 +1,7 @@
+# caches / thumbs / sqlite / klipper
+**/cache/
+**/thumbnails/
+**/klipper/data/
+*.sqlite*
+*.sqlite-shm
+*.sqlite-wal
